@@ -1,0 +1,118 @@
+.dashboard-shell {
+  padding: 36px 28px 56px;
+}
+
+.dashboard-layout {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+}
+
+.dashboard-hero {
+  padding: 28px;
+}
+
+.dashboard-title {
+  margin: 10px 0 8px;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 0.95;
+}
+
+.dashboard-copy {
+  max-width: 640px;
+  margin: 0;
+  color: #52657b;
+  font-size: 17px;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.toolbar-grid {
+  display: grid;
+  gap: 14px;
+}
+
+.toolbar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.file-button {
+  position: relative;
+  overflow: hidden;
+}
+
+.file-button input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.snapshot-card {
+  padding: 22px;
+}
+
+.snapshot-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.meta-pill {
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: rgba(19, 34, 56, 0.08);
+  color: #334e69;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.snapshot-title {
+  margin: 0 0 12px;
+  font-size: 20px;
+}
+
+.window-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
+.window-card {
+  padding: 14px;
+  border-radius: 18px;
+  background: rgba(242, 245, 249, 0.86);
+}
+
+.window-card h3 {
+  margin: 0 0 8px;
+  font-size: 15px;
+}
+
+.window-card ul {
+  margin: 0;
+  padding-left: 18px;
+  color: #597086;
+}
+
+.window-card li + li {
+  margin-top: 6px;
+}
+
+.snapshot-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.dashboard-empty {
+  padding: 28px;
+  text-align: center;
+}

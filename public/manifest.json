@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Fusion",
+  "short_name": "Tab Fusion",
+  "version": "0.1.0",
+  "description": "Une ventanas en un click, agrupa tabs manualmente y conserva snapshots restaurables.",
+  "minimum_chrome_version": "120",
+  "permissions": ["tabs", "tabGroups", "storage", "alarms"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "Tab Fusion",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png"
+    }
+  },
+  "commands": {
+    "consolidate-all-tabs": {
+      "description": "Unir todas las ventanas en una sola"
+    }
+  }
+}
