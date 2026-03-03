@@ -1,7 +1,18 @@
 {
   "name": "chrome-tab-group-extension",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "description": "Chrome extension to merge windows, group tabs, restore snapshots, and manage duplicates.",
   "private": true,
+  "license": "MIT",
+  "author": "Sergio M. Veron",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mveron/Tab-Fusion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mveron/Tab-Fusion/issues"
+  },
+  "homepage": "https://github.com/mveron/Tab-Fusion",
   "type": "module",
   "scripts": {
     "check": "npm run typecheck && npm run test:run && npm run build",

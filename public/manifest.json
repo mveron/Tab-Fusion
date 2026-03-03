@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Tab Fusion",
   "short_name": "Tab Fusion",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Une ventanas en un click, agrupa tabs manualmente y conserva snapshots restaurables.",
   "minimum_chrome_version": "120",
   "permissions": ["tabs", "tabGroups", "storage", "alarms"],
@@ -28,5 +28,6 @@
     "consolidate-all-tabs": {
       "description": "Unir todas las ventanas en una sola"
     }
-  }
+  },
+  "homepage_url": "https://github.com/mveron/Tab-Fusion"
 }

@@ -2,6 +2,8 @@
 
 Extensión de Chrome MV3 para consolidar tabs de varias ventanas en una sola, crear grupos manuales y restaurar snapshots guardados por la propia extensión.
 
+Repositorio: `https://github.com/mveron/Tab-Fusion`
+
 ## Features
 
 - Unir todas las ventanas normales en una sola con un click desde el popup.
@@ -37,10 +39,16 @@ Extensión de Chrome MV3 para consolidar tabs de varias ventanas en una sola, cr
 ## Uso local
 
 1. Ejecuta `npm install`.
-2. Ejecuta `npm run build`.
+2. Ejecuta `npm run verify:prod` si quieres validar todo y generar el zip final.
 3. Abre `chrome://extensions`.
 4. Activa `Developer mode`.
 5. Carga `dist/` con `Load unpacked`.
+
+## Publicación
+
+- Artefacto listo para release: `release/tab-fusion.zip`
+- Política de privacidad: [PRIVACY.md](./PRIVACY.md)
+- Historial de cambios: [CHANGELOG.md](./CHANGELOG.md)
 
 ## Notas
 
